@@ -1,0 +1,85 @@
+KSPEDIA fr
+
+//---The main page---
+#LOC_KPBS.kspedia.main.title = Kerbal Planetary Base Systems
+#LOC_KPBS.kspedia.main.subtitle = Construire des bases sur d'autres planètes n'a jamais été aussi facile.
+#LOC_KPBS.kspedia.main.desc = Honnêtement, c'est assez difficile mais vous allez trouver toutes les informations pour construire votre base ici.
+
+//---Deployable Parts---
+#LOC_KPBS.kspedia.deploy.title = Parties déployables
+#LOC_KPBS.kspedia.deploy.subtitle = Certaines structures du mod peuvent être déployées et rétractées.
+#LOC_KPBS.kspedia.deploy.desc = Les structures déployabels sont rétractées de base mais peuvent être déployées dans le VAB/SHP ou à partir du vaisseau. Lorsqu'elles sont rétractées, ces structures ne peuvent contenir aucun équipage.
+#LOC_KPBS.kspedia.deploy.deploy = Déployée
+#LOC_KPBS.kspedia.deploy.retract = Rétractée
+#LOC_KPBS.kspedia.deploy.parts.header = Ces trois parties peuvent être déployées:
+#LOC_KPBS.kspedia.deploy.parts.hab = Habitacle MK2:
+#LOC_KPBS.kspedia.deploy.parts.hab.desc = L'Habitacle MK2 peut acceuillir 4 Kerbals lorsqu'il est déployé.
+#LOC_KPBS.kspedia.deploy.parts.greenhouse = Serre:
+#LOC_KPBS.kspedia.deploy.parts.greenhouse.desc = La serre peut acceuillir 2 Kerbals lorsqu'elle est déployée.
+#LOC_KPBS.kspedia.deploy.parts.laboratory = Laboratoire:
+#LOC_KPBS.kspedia.deploy.parts.laboratory.desc = Comme la serre, le laboratoire peut contenir 2 Kerbals lorsqu'il est déployé.
+
+//---Landing legs---
+#LOC_KPBS.kspedia.legs.title = Trains d'atterrissage et roues
+#LOC_KPBS.kspedia.legs.subtitle = Parfois vos bases resteront sur le sol.
+#LOC_KPBS.kspedia.legs.legs = Trains d'atterrissage:
+#LOC_KPBS.kspedia.legs.legs.bigfood = "Bigfoot" Trains d'atterrissage latéraux
+#LOC_KPBS.kspedia.legs.legs.bigfood.desc = Les "Bigfoot" peuvent être attachés sur les côtés des structures ou au noeuds d'amarrage. Pressez <b>ALT<b> pour les attacher plus facilement. 
+#LOC_KPBS.kspedia.legs.legs.littlefood = "Little Bigfoot" Trains d'atterrissage inférieurs
+#LOC_KPBS.kspedia.legs.legs.littlefood.desc = Les "Little Bigfoot" peuvent être attachés sous les structures de la base. Très utiles si il n'y a pas assez de place. 
+#LOC_KPBS.kspedia.legs.wheels = Roues attachables:
+#LOC_KPBS.kspedia.legs.wheels.desc = Les roues attachables peuvent être utilisées pour conduire votre base. Il convient le mieux aux trains d'atterrissage "Bigfoot". Elles peuvent être retractées et même découplées si besoin est.
+
+//---Storage---
+#LOC_KPBS.kspedia.storage.title = Système de stockage
+#LOC_KPBS.kspedia.storage.subtitle = Pour tous vos besoin de stockage.
+#LOC_KPBS.kspedia.storage.desc = KPBS propose un système de stockage modulable dans plusieurs formes. Le système comprend des supports de stockage et des conteneurs:
+#LOC_KPBS.kspedia.storage.racks = Supports de stockages:
+#LOC_KPBS.kspedia.storage.racks.desc = Il y a trois tailles pour les supports de stockage avec 2,4 et 6 slots pour les conteneurs et deux tailles pour les fusée de 2.5m de diamètre avec 4 et 8 slots.
+#LOC_KPBS.kspedia.storage.container = Conteneurs:
+#LOC_KPBS.kspedia.storage.container.desc = Il y a deux tailles de conteneurs. Les petits prennent un slot dans le support, les grands prennent deux slots.
+#LOC_KPBS.kspedia.storage.attach = Attacher les conteneurs:
+#LOC_KPBS.kspedia.storage.attach.desc = Pour attacher les conteneurs à un supports, utilisez simplement les points d'attaches. Vous pouvez aussi attacher et détacher les conteneurs avec KIS.
+
+//---Config---
+#LOC_KPBS.kspedia.config.title = Configuration
+#LOC_KPBS.kspedia.config.subtitle = Vous pouvez configurer les catégories ajoutées à l'éditeur pour ce mod. Ceci peut être fait dans le fichier de configuration <b>GameData/PlanetaryBaseInc/KPBS_config.cfg</b>.
+#LOC_KPBS.kspedia.config.subcategory = Sous-catégorie:
+#LOC_KPBS.kspedia.config.subcategory.desc = Disponible quand <b>showModCategory</b> est <b>true</b>. Cette option ajoute une nouvelle sous-catégorie au filtre. Les structures dans cette sous-catégorie sont séparées par leurs fonctions.
+#LOC_KPBS.kspedia.config.lifesupport = Filtre pour le Life Support:
+#LOC_KPBS.kspedia.config.lifesupport.desc = Par défaut, KPBS est livré avec le Community Category Kit qui met toutes les structures pour le life support dans une catégorie.
+#LOC_KPBS.kspedia.config.functionfilter = Catégories dans le filtre de fonction:
+#LOC_KPBS.kspedia.config.functionfilter.desc = Disponible quand le paramètre <b>"Group all Parts in Function Filter"</b> est activé dans les paramètres de difficulté de chaque partie. Cette option ajoute une catégorie au filtre de fonction. Toutes les structures de KBPS sont listées ici. 
+
+//---Getting into space---
+#LOC_KPBS.kspedia.storage.title = Aller dans l'espace
+#LOC_KPBS.kspedia.storage.subtitle = Avant de créer une base sur une autre planète, vous devez d'abord envoyer les structures dans l'espace.
+#LOC_KPBS.kspedia.storage.parts = KBPS a trois structures qui vous permet de mettre les parties de la base au bout d'une fusée. Le premier peut être mis sur une fusée de 2.5m de diamètre et a 2 slots, le second a 3 slots et peut être mis sur une fusée de 3.75m de diamètre. Le troisième est un adaptateur pour une partie de base vers une fusée de 1.25m de diamètre.
+#LOC_KPBS.kspedia.storage.setup1 = A droite est un exemple de ce que pourrait être une partie de base sur une fusée de 2.5m. Le milieu des coupleurs a un point de fixation supplémentaire pour les poutres ou les pièces qui devraient être sur le dessus des pièces de base, comme les parachutes et les air brakes.
+#LOC_KPBS.kspedia.storage.setup1 = Pour de meilleures performances, il est recommandé de mettre un bouclier protecteur aurour d'eux.
+#LOC_KPBS.kspedia.storage.bicoupler = Bi-Coupleur avec 2 slots
+#LOC_KPBS.kspedia.storage.tricoupler = Tri-Coupleur avec 3 slots
+
+//---Reentry and Landing---
+#LOC_KPBS.kspedia.reentry.title = Réentrée et atterrissage
+#LOC_KPBS.kspedia.reentry.subtitle = Une fois dans l'espace, il peut seulement tomber.
+#LOC_KPBS.kspedia.reentry.desc = Pour la réentrée dans l'atmosphère, la configuration suivante est la plus appropriée:
+#LOC_KPBS.kspedia.reentry.parachute = Parachute
+#LOC_KPBS.kspedia.reentry.airbrake = Airbrakes
+#LOC_KPBS.kspedia.reentry.wheels = Roues et trains d'atterrissage
+#LOC_KPBS.kspedia.reentry.heatshield = Bouclier thermique
+#LOC_KPBS.kspedia.reentry.control = Unité de contrôle
+#LOC_KPBS.kspedia.reentry.separator = Séparateur
+#LOC_KPBS.kspedia.reentry.text1 = Le bouclier protège de la chaleur tandis que les airbrakes ralentissent le vaiseau et le rends stable. Lorsque qu'il est sûr, déployez le grand parachute.\n Vous pouvez séparer les deux parties et les faire atterrir sans danger avec des moteurs et des parachutes.
+#LOC_KPBS.kspedia.reentry.text2 = Gardez en tête de garder une unité de contrôle sur chaque vaisseaux !
+#LOC_KPBS.kspedia.reentry.landing.title = Atterrir sans atmosphère
+#LOC_KPBS.kspedia.reentry.landing.text1 = Quand il n'y a pas d'atmosphère, utilisez un moteur à la place du bouuclier thermique pour ralentir. Le moteur Meerkat vous aidera à atterir sans encombres. Sur des planètes avec une plus grande gravité, un skycrane pourra aider.
+#LOC_KPBS.kspedia.reentry.landing.text2 = Vous aurez peut être envie de séparer les stages en orbites et de les faire atterrir séparement.
+
+//---Corridors---
+#LOC_KPBS.kspedia.corridors.title = Couloirs
+#LOC_KPBS.kspedia.corridors.subtitle = Structures dynamiques pour connecter votre base.
+#LOC_KPBS.kspedia.corridors.desc = Avec KBPS vient une variété de couloirs que vous pouvez utiliser pour connecter votre base ou construire des stations spatiales. Les couloirs ont une fonction spéciale:\n Ils adaptent leurs apparences là où vous avez connecté les autres structures. 
+#LOC_KPBS.kspedia.corridors.connect = Une fois connecté, le couloir change son apparence. il peut avoir plusieurs formes: couloir droit, coin, traversée, forme en T. Ce comportement est également présent lorsque vous raccordez des pièces via KIS. Ainsi, vous pouvez créer votre base directement sur la planète sans avoir à rompre tous les détails.
+#LOC_KPBS.kspedia.corridors.base = Il y a aussi une partie d'adaptation avec le profil des parties de base pour ressembler à une seule pièce.
+#LOC_KPBS.kspedia.corridors.note = Note: Quand vous avez KAS installer, il y a aussi un couloir flexible disponible.
